@@ -6,9 +6,14 @@ The project integrates Machine Learning, Data Analysis, and Web Technologies to 
 AirAware includes an interactive interface where users can view AQI predictions, pollution trends, and environmental insights. The system processes the input data, runs it through a trained machine learning model, and displays predicted AQI values in real time.
 
 # Key Features
-AQI prediction using Machine Learning models
-Analysis of historical air pollution data
-Interactive dashboard for pollution monitoring
-User-friendly interface for viewing AQI forecasts
-Data visualization for pollution trends
-Integration of frontend, backend, and ML model
+1. AQI prediction using Machine Learning models
+
+2. Analysis of historical air pollution data
+
+3. Interactive dashboard for pollution monitoring
+
+4. User-friendly interface for viewing AQI forecasts
+
+5. Data visualization for pollution trends
+
+6. Integration of frontend, backend, and ML model
