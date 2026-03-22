@@ -16,4 +16,4 @@ AirAware includes an interactive interface where users can view AQI predictions,
 
 5. Data visualization for pollution trends
 
-6. Integration of frontend, backend, and ML model
+
