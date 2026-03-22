@@ -58,5 +58,3 @@ plt.show()
 
 model.plot_components(forecast)
 plt.show()
-
-
