@@ -1,0 +1,45 @@
+/* App-specific styles that aren't global */
+.app-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.header-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 24px;
+  /* 
+    Current AQI: Col 1
+    Trend: Col 2 & 3
+    Pollutants: Col 1 & 2
+    Prediction: Col 3
+    Weekly: Full Width 
+  */
+}
+
+@media (max-width: 1024px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
